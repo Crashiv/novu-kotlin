@@ -48,7 +48,7 @@ tasks.test {
     useJUnitPlatform()
 }
 tasks.jar{
-    archiveFileName.set("novu-kotlin-$version.jar")
+    archiveFileName.set("novu-kotlin.jar")
 }
 kotlin {
     jvmToolchain(8)
