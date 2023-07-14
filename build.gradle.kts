@@ -10,7 +10,7 @@ plugins {
     kotlin("jvm") version "1.8.0"
 }
 group = "io.github.crashiv"
-version = "0.1.1-SNAPSHOT"
+version = "v0.1.1"
 
 java {
     withJavadocJar()
@@ -46,6 +46,9 @@ dependencies {
 }
 tasks.test {
     useJUnitPlatform()
+}
+tasks.jar{
+    archiveFileName.set("novu-kotlin-$version.jar")
 }
 kotlin {
     jvmToolchain(8)
