@@ -17,4 +17,4 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: novu-kotlin/build/libs/novu-kotlin.jar
+          files: build/libs/novu-kotlin.jar
